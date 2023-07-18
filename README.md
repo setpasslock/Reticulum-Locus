@@ -26,7 +26,7 @@ f3332dfe973b18336e46a44fd7cb6d3a064e519259aaa0da1895568c879074fd
     cd Reticulum-Locus
     chmod +x installdb.sh
     sudo ./installdb.sh
-    pip3 install requirements.txt
+    pip3 install -r requirements.txt
     sudo python3 locus.py -h
 
 
