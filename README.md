@@ -6,7 +6,7 @@ Tool that scans IP ranges by City/Country/Region names with RustScan.
 ## Requirements
 This tool needs a database (I prefer mariadb) and RustScan for scans. I also left a **requirements.txt** for libraries.
 
-[RustScan](https://github.com/RustScan/RustScan/)
+[RustScan](https://github.com/RustScan/RustScan/releases)
 
 You need to extract the [zip](https://github.com/setpasslock/Reticulum-Locus/releases) (in assets) file and import the contents to the database or you can get the data [here](https://www.ip2location.com/database/ip2location). 
 
