@@ -6,7 +6,8 @@ Tool that scans IP ranges by City/Country/Region names with RustScan.
 ## Requirements
 This tool needs a database (I prefer mariadb) and RustScan for scans. I also left a **requirements.txt** for libraries.
 
-[RustScan](https://github.com/RustScan/RustScan/releases/download/2.0.1/rustscan_2.0.1_amd64.deb) (for amd64)
+[RustScan 2.0.1 for amd64](https://github.com/RustScan/RustScan/releases/download/2.0.1/rustscan_2.0.1_amd64.deb)
+[Rustscan 2.0.1 for i386](https://github.com/RustScan/RustScan/releases/download/2.0.1/rustscan_2.0.1_i386.deb)
 
 You need to extract the [zip](https://github.com/setpasslock/Reticulum-Locus/releases) (in assets) file and import the contents to the database or you can get the data [here](https://www.ip2location.com/database/ip2location). There is a script called **installdb.sh** for this.
 Then don't forget to enter the connection information with your database in the **db_connect.py** file. 
