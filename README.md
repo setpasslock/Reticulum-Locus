@@ -8,7 +8,7 @@ This tool needs a database (I prefer mariadb) and RustScan for scans. I also lef
 
 [RustScan](https://github.com/RustScan/RustScan/)
 
-You need to extract the zip file and import the contents to the database or you can get the data [here](https://www.ip2location.com/database/ip2location). 
+You need to extract the [zip](https://github.com/setpasslock/Reticulum-Locus/releases) (in assets) file and import the contents to the database or you can get the data [here](https://www.ip2location.com/database/ip2location). 
 
 By the way, this is the sha256 hash of the zip file: 
 "`
