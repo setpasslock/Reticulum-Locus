@@ -6,7 +6,7 @@ from scanner import ptr_dns_scan, RustScan
 
 
 
-arg_parser = argparse.ArgumentParser(description="Say Hello")
+arg_parser = argparse.ArgumentParser(description="Tool that scans IP ranges by City/Country/Region names with RustScan.")
 arg_parser.add_argument("-c", "--city-name", required=False, help="Write the city name: capitalize the first letter: Tokyo")
 arg_parser.add_argument("-C", "--country-name", required=False, help="Write the country name: Capitilize the first letter: Thailand")
 arg_parser.add_argument("-r", "--region", required=False, help="Write the region name: Capitilize the first letter.")
