@@ -8,14 +8,14 @@ This tool needs a database (I prefer mariadb) and RustScan for scans. I also lef
 
 [RustScan](https://github.com/RustScan/RustScan/releases)
 
-You need to extract the [zip](https://github.com/setpasslock/Reticulum-Locus/releases) (in assets) file and import the contents to the database or you can get the data [here](https://www.ip2location.com/database/ip2location). 
+You need to extract the [zip](https://github.com/setpasslock/Reticulum-Locus/releases) (in assets) file and import the contents to the database or you can get the data [here](https://www.ip2location.com/database/ip2location). There is a script called **installdb.sh** for this.
+Then don't forget to enter the connection information with your database in the **db_connect.py** file. 
 
 By the way, this is the sha256 hash of the zip file: 
 "`
 f3332dfe973b18336e46a44fd7cb6d3a064e519259aaa0da1895568c879074fd
 `"
-There is a script called **installdb.sh** for this.
-Then don't forget to enter the connection information with your database in the **db_connect.py** file. 
+
 
 
 
