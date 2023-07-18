@@ -20,6 +20,7 @@ Then don't forget to enter the connection information with your database in the 
 
 
 	git clone https://github.com/setpasslock/Reticulum-Locus
+    mv ip2location.zip Reticulum-Locus
     cd Reticulum-Locus
     chmod +x installdb.sh
     sudo ./installdb.sh
