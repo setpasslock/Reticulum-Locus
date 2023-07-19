@@ -15,12 +15,17 @@ def RustScan(target_ports=None, city_name=None, first_index=None, second_index=N
     result = os.popen(f"sudo rustscan -a 'hosts.txt' -p {target_ports} -b 1000 -g").read()
     print(result)
 
-    if index == None:
-        with open(f'{city_name}-{first_index}-{second_index}-results_hosts.txt', mode='w') as new_file:
-            new_file.write(str(result) + '\n')
-    else:
-        with open(f'{city_name}-{index}-results_hosts.txt', mode='w') as new_file:
-                new_file.write(str(result) + '\n')
 
-    print("Results are saved")
+
+    if result != "":
+        if index == None:
+            with open(f'{city_name}-{first_index}-{second_index}-results_hosts.txt', mode='w') as new_file:
+                new_file.write(str(result) + '\n')
+        else:
+            with open(f'{city_name}-{index}-results_hosts.txt', mode='w') as new_file:
+                    new_file.write(str(result) + '\n')
+
+        print("Results are saved")
+    else:
+        print("Empty Results")
     return result
