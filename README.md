@@ -67,7 +67,7 @@ python locus.py
 
 Or run a query and enter the interactive console:
 ```
-python locus.py --city "New York"
+python locus.py --city "San Juan"
 ```
 
 ### Interactive Console Commands
